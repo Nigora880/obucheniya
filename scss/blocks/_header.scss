@@ -1,0 +1,52 @@
+.site-header {
+    background-color: $color-blue;
+    padding: 16px 0;
+}
+
+.header {
+    @include Display($ITEMS: center, $SPACE: space-between, $GAP: 0px);
+
+    &-navbar {
+        @include Display($ITEMS: center, $SPACE: start, $GAP: 35px);
+
+        @media (max-width:1000px) {
+            display: none;
+        }
+
+        a {
+            @include TextStyle($FW: 500, $FS: 24px, $LH: 100%, $LS: 0%, $CLR: $color-white);
+        }
+
+        &__btns-wrapper {
+            @include Display($ITEMS: center, $SPACE: start, $GAP: 15px);
+        }
+    }
+    &__btns-wrapper{
+        @include Display($ITEMS: center, $SPACE: start, $GAP: 20px);
+    }
+    &__contact-btn {
+        @media(max-width:1000px) {
+            display: none;
+        }
+        @include ButtonStyle($btnClr: $color-black, $btnBg: $color-white, $btnBorderClr: transparent);
+    }
+
+    &__mobile-phone-img {
+        display: none;
+
+        @media (max-width:1000px) {
+            display: block;
+        }
+
+    }
+}
+
+    &__menu-btn {
+        border: none;
+        background-color: transparent;
+        display: none;
+
+        @media (max-width:1000px) {
+           display: block;
+        }
+    }

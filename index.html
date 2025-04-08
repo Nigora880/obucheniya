@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/header-logo.svg">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Oбучения</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+             content-visibility: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header">
+            <a class="header__logo-link" href="/">
+                <img src="./img/header-logo.svg" alt="site logo" width="156" height="111">
+            </a>
+            <nav class="header-navbar">
+                <a href="#">О нашей школе</a>
+                <a href="#">Преимущества</a>
+                <a href="#">Классы</a>
+                <a href="#">Контакты</a>
+            </nav>
+            <div class="header__btns-wrapper">
+                <button class="header__contact-btn">Связаться с нaми </button>
+                <button class="header__mobile-phone-img">
+                    <img src="./img/Call.svg" alt="mobile phone" width="30" height="30">
+                </button>
+                <button class="header__menu-btn">
+                    <img src="./img/menu/Group 1728.svg" alt="menu img">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="!pt-[180px] overflow-hidden relative !pb-[142px] bg-[#fafafa] !pl-[130px]">
+            <div class="containers">
+                <div class="max-w-[568px] flex flex-col gap-10">
+                    <h2 class="font-bold text-[40px] leading-[100%] text-[#000]"><span class="text-[#5855E7]">The Best Future Stars</span> мы заботимся о будущем вашего ребенка</h2>
+                    <p class="font-normal text-[18px] leading-[100%] text-[#000000]">Наши опытные преподователи сделают процесс обучения максимально интересным и эффективным для вашего ребенка </p>
+                    <div class="flex items-center justify-between">
+                        <a class="w-[47%] font-medium text-[36px] border-[3px] border-transparent leading-[100%] text-white py-[7px] text-center bg-[#6347EB] rounded-[10px]" href="tel:">Позвонить </a>
+                        <button class="!w-[47%] font-medium text-[36px] border-[3px] border-[#6347EB] leading-[100%] text-black py-[7px] text-center bg-transparent rounded-[10px]">Подробнее </button>
+                    </div>
+                </div>
+            </div>
+            <img class="absolute right-0 top-0" src="./img/hero-img.png" alt="hero img">
+        </section>
+        <section class="!pt-[214px] !pb-[214px] w-[1164px] h-[492px] bg-[#FFFFFF] !pl-[138px]">
+            <div class="container">
+            <div class="max-w-[568px] flex gap-10">
+            <img class="w-[534px] h-[492px]" src="./img/about us img.png" alt="О нас img">
+            <div class="flex flex-col ">
+            <h2 class=" w-[116px] h-[36px] size-10 font-bold text-[#000000]">О нас</h2>
+            <a class="font-normal w-[584px] h-[398px] size-6 text-[#000000]" href="#">Для комфортного образования и времяпровождения, мы  объединяем 
+                детей небольшими комфортными группами, которые разделяются по возрастным категориям, а также и по образовательным направлениям. Индивидуальный подход к каждому ребёнку. В классе не более 10 учеников. Углублённое изучение английского языка.Кроме этого, мы отправляем наших детей на языковую практику за рубеж. Обучение с 8.00 до 17.00;
+                 3-х разовое сбалансированное питание ( по желанию), выполнение домашних заданий. 
+                    
+                 Все условия и комфорт для ваших детей!</a>
+                </div>
+            </div>
+        </div>
+        </section>
+          
+
+    </main>
+
+    <script src="./.vscode/settings.json"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+            }
+          }
+        }
+      </script>
+</body>
+
+</html>
