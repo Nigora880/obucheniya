@@ -96,6 +96,14 @@ body {
     display: none;
   }
 }
+.header__mobile-phone-img {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .header__mobile-phone-img {
+    display: block;
+  }
+}
 .header__menu-btn {
   border: none;
   background-color: transparent;
@@ -103,6 +111,13 @@ body {
 }
 @media (max-width: 1000px) {
   .header__menu-btn {
+    display: block;
+  }
+}
+
+@media (max-width: 1000px) {
+  .containers h2 {
+    display: none;
     display: block;
   }
 }/*# sourceMappingURL=main.css.map */
